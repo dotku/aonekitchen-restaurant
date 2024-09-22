@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "node ./bin/www",
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "build": "echo 'No build step needed'"
   },
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
@@ -24,6 +25,7 @@
     "paypal-rest-sdk": "^1.8.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.7"
+    "nodemon": "^3.1.7",
+    "vercel": "^37.5.3"
   }
 }
